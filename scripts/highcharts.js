@@ -1,7 +1,8 @@
-// var angels = require('./teamData/@Angels.json')
-
-// console.log("3️⃣", angels)
-
+$.getJSON("./../teamData/@Angels.json", function(json) {
+  var angels = json
+  console.log(angels)
+    // console.log(json); // this will show the info it in firebug console
+});
 var rockiesMentions = {
   "results": [
     {
@@ -1029,8 +1030,6 @@ var rockiesMentions = {
     "toDate": "201711030000"
   }
 }
-
-
 var allMLBGames = [
   {
     "Date": 20170407,
@@ -18045,25 +18044,55 @@ var allMLBGames = [
 ]
 
 var teamJSONFiles = ["@athletics", "@Braves", "@Dodgers", "@Royals", "@tigers", "@Dbacks", "@Reds", "@Padres", "@Pirates", "@Mets", "@Orioles", "@Angels", "@Twins", "@Nationals", "@RaysBaseball", "@RedSox", "@Yankees", "@Rangers", "@Cubs", "@BlueJays", "@Mariners", "@SFGiants", "@astros", "@Brewers", "@Cardinals", "@Indians", "@Marlins", "@Phillies", "@whitesox", "@Rockies"]
+var twoTeams = {
+  "@Angels": "ANA",
+  "@Astros": "HOU"
+}
 
 var rockiesArray = []
 
 for (let game of allMLBGames){
+  // Go through all the games for the team, and add the amount of runs scored by the team to the mentions couting object
   if(game["home_team"] == "COL"){
     var teamDateWithMentions = rockiesMentions["results"].find(function(element){
       return element["timePeriod"] == game["Date"]+"0000"
     })
     teamDateWithMentions["runs"] = game["home_score"]
   }
+  if(game["vis_team"] == "COL"){
+    var teamDateWithMentions = rockiesMentions["results"].find(function(element){
+      return element["timePeriod"] == game["Date"]+"0000"
+    })
+    teamDateWithMentions["runs"] = game["vis_score"]
+  }
 }
-
 // console.log(rockiesMentions)
-
 rockiesMentions["results"].forEach(function(game){
   if(game["runs"]){
     rockiesArray.push([game["runs"], game["count"]])
   }
 })
+
+console.log(rockiesMentions["results"].length)
+// Build the loop for all teams now
+
+
+// for (let game of allMLBGames){
+//   // Go through all the games for the team, and add the amount of runs scored by the team to the mentions couting object
+//   if(game["home_team"] == "COL"){
+//     var teamDateWithMentions = rockiesMentions["results"].find(function(element){
+//       return element["timePeriod"] == game["Date"]+"0000"
+//     })
+//     teamDateWithMentions["runs"] = game["home_score"]
+//   }
+// }
+// // console.log(rockiesMentions)
+// rockiesMentions["results"].forEach(function(game){
+//   if(game["runs"]){
+//     rockiesArray.push([game["runs"], game["count"]])
+//   }
+// })
+
 
 
 
