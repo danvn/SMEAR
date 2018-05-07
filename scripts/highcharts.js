@@ -17051,7 +17051,7 @@ var mlbD3Data = []
 // Build the loop for all teams now
 mlbTeams.forEach(function(team){
 
-  $.getJSON("scripts/teamData/" + team[0] + ".json", function(json) {
+  $.getJSON("http://www.dannguyen.me/SMEAR/scripts/teamData/" + team[0] + ".json", function(json) {
     teamMentionsAndRuns[team[0]] = []
     // console.log("➡️➡️➡️", team[0], teamMentionsAndRuns)
 
