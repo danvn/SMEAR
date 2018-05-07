@@ -17084,7 +17084,7 @@ mlbTeams.forEach(function(team){
         color: team[2],
         data: teamMentionsAndRuns[team[0]]
     })
-    console.log(mlbD3Datfdsfdsaa)
+    console.log(mlbD3Data)
 
   });
 })
