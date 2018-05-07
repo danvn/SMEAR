@@ -1,6 +1,36 @@
 setTimeout(myFunction, 1000)
-
-
+var twoTeams = [
+  ["@Angels","ANA"],
+  ["@Astros","HOU"],
+  ["@Athletics","OAK"],
+  ["@BlueJays","TOR"],
+  ["@Braves","ATL"],
+  ["@Brewers","MIL"],
+  ["@Cardinals","SLN"],
+  ["@Cubs","CHN"],
+  ["@Dbacks","ARI"],
+  ["@Dodgers","LAN"],
+  ["@Indians","CLE"],
+  ["@Mariners","SEA"],
+  ["@Marlins","MIA"],
+  ["@Mets","NYN"],
+  ["@Nationals","WAS"],
+  ["@Orioles","BAL"],
+  ["@Padres","SDN"],
+  ["@Phillies","PHI"],
+  ["@Pirates","PIT"],
+  ["@Rangers","TEX"],
+  ["@RaysBaseball","TBA"],
+  ["@RedSox","BOS"],
+  ["@Reds","CIN"],
+  ["@Rockies","COL"],
+  ["@Royals","KCA"],
+  ["@SFGiants","SFN"],
+  ["@Tigers","DET"],
+  ["@Twins","MIN"],
+  ["@Whitesox","CHA"],
+  ["@Yankees","NYA"]
+]
 teamMentionsAndRuns = {}
 var rockiesMentions = {
   "results": [
@@ -18042,43 +18072,7 @@ var allMLBGames = [
   }
 ]
 
-var twoTeams = [
-  ["@Angels","ANA"],
-  ["@Astros","HOU"],
-  ["@Athletics","OAK"],
-  ["@BlueJays","TOR"],
-  ["@Braves","ATL"],
-  ["@Brewers","MIL"],
-  ["@Cardinals","SLN"],
-  ["@Cubs","CHN"],
-  ["@Dbacks","ARI"],
-  ["@Dodgers","LAN"],
-  ["@Indians","CLE"],
-  ["@Mariners","SEA"],
-  ["@Marlins","MIA"],
-  ["@Mets","NYN"],
-  ["@Nationals","WAS"],
-  ["@Orioles","BAL"],
-  ["@Padres","SDN"],
-  ["@Phillies","PHI"],
-  ["@Pirates","PIT"],
-  ["@Rangers","TEX"],
-  ["@RaysBaseball","TBA"],
-  ["@RedSox","BOS"],
-  ["@Reds","CIN"],
-  ["@Rockies","COL"]
-  ["@Royals","KC"],
-  ["@SFGiants","SF"],
-  ["@Tigers","DET"],
-  ["@Twins","MIN"],
-  ["@Whitesox","CHW"],
-  ["@Yankees","NYY"]
-]
-//
-// var twoTeams = [
-//   ["@Angels", "ANA"],
-//   ["@Astros", "HOU"]
-// ]
+
 
 var rockiesArray = []
 
@@ -18097,7 +18091,7 @@ for (let game of allMLBGames){
     teamDateWithMentions["runs"] = game["vis_score"]
   }
 }
-console.log(rockiesMentions)
+
 rockiesMentions["results"].forEach(function(game){
   if(game["runs"]){
     rockiesArray.push([game["runs"], game["count"]])
@@ -18106,7 +18100,7 @@ rockiesMentions["results"].forEach(function(game){
 
 // Build the loop for all teams now
 twoTeams.forEach(function(team){
-  console.log("SWITCHING TO", team[0])
+
   $.getJSON("./../teamData/" + team[0] + ".json", function(json) {
     teamMentionsAndRuns[team[0]] = []
     console.log("➡️➡️➡️", team[0], teamMentionsAndRuns)
@@ -18138,7 +18132,7 @@ twoTeams.forEach(function(team){
   });
 })
 
-
+console.log("😈", teamMentionsAndRuns)
 
 function myFunction() {
 
@@ -18202,9 +18196,14 @@ function myFunction() {
           }
       },
       series: [{
-          name: 'Rockies',
+          name: '@Angels',
           color: 'rgba(223, 83, 83, .5)',
           data: teamMentionsAndRuns["@Angels"]
+      },
+      {
+          name: '@Astros',
+          color: 'rgba(223, 83, 83, .5)',
+          data: teamMentionsAndRuns["@Astros"]
       }]
   });
 
