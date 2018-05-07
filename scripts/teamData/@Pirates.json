@@ -1,0 +1,1027 @@
+{
+  "results": [
+    {
+      "timePeriod": "201711020000",
+      "count": 1667
+    },
+    {
+      "timePeriod": "201711010000",
+      "count": 354
+    },
+    {
+      "timePeriod": "201710310000",
+      "count": 407
+    },
+    {
+      "timePeriod": "201710300000",
+      "count": 205
+    },
+    {
+      "timePeriod": "201710290000",
+      "count": 191
+    },
+    {
+      "timePeriod": "201710280000",
+      "count": 256
+    },
+    {
+      "timePeriod": "201710270000",
+      "count": 995
+    },
+    {
+      "timePeriod": "201710260000",
+      "count": 2052
+    },
+    {
+      "timePeriod": "201710250000",
+      "count": 278
+    },
+    {
+      "timePeriod": "201710240000",
+      "count": 254
+    },
+    {
+      "timePeriod": "201710230000",
+      "count": 224
+    },
+    {
+      "timePeriod": "201710220000",
+      "count": 249
+    },
+    {
+      "timePeriod": "201710210000",
+      "count": 107
+    },
+    {
+      "timePeriod": "201710200000",
+      "count": 284
+    },
+    {
+      "timePeriod": "201710190000",
+      "count": 387
+    },
+    {
+      "timePeriod": "201710180000",
+      "count": 1008
+    },
+    {
+      "timePeriod": "201710170000",
+      "count": 2279
+    },
+    {
+      "timePeriod": "201710160000",
+      "count": 180
+    },
+    {
+      "timePeriod": "201710150000",
+      "count": 171
+    },
+    {
+      "timePeriod": "201710140000",
+      "count": 683
+    },
+    {
+      "timePeriod": "201710130000",
+      "count": 1577
+    },
+    {
+      "timePeriod": "201710120000",
+      "count": 292
+    },
+    {
+      "timePeriod": "201710110000",
+      "count": 500
+    },
+    {
+      "timePeriod": "201710100000",
+      "count": 1402
+    },
+    {
+      "timePeriod": "201710090000",
+      "count": 479
+    },
+    {
+      "timePeriod": "201710080000",
+      "count": 194
+    },
+    {
+      "timePeriod": "201710070000",
+      "count": 386
+    },
+    {
+      "timePeriod": "201710060000",
+      "count": 1461
+    },
+    {
+      "timePeriod": "201710050000",
+      "count": 1950
+    },
+    {
+      "timePeriod": "201710040000",
+      "count": 2601
+    },
+    {
+      "timePeriod": "201710030000",
+      "count": 1541
+    },
+    {
+      "timePeriod": "201710020000",
+      "count": 4244
+    },
+    {
+      "timePeriod": "201710010000",
+      "count": 6845
+    },
+    {
+      "timePeriod": "201709300000",
+      "count": 2074
+    },
+    {
+      "timePeriod": "201709290000",
+      "count": 1976
+    },
+    {
+      "timePeriod": "201709280000",
+      "count": 6941
+    },
+    {
+      "timePeriod": "201709270000",
+      "count": 6044
+    },
+    {
+      "timePeriod": "201709260000",
+      "count": 1702
+    },
+    {
+      "timePeriod": "201709250000",
+      "count": 869
+    },
+    {
+      "timePeriod": "201709240000",
+      "count": 7430
+    },
+    {
+      "timePeriod": "201709230000",
+      "count": 2648
+    },
+    {
+      "timePeriod": "201709220000",
+      "count": 3546
+    },
+    {
+      "timePeriod": "201709210000",
+      "count": 2108
+    },
+    {
+      "timePeriod": "201709200000",
+      "count": 1507
+    },
+    {
+      "timePeriod": "201709190000",
+      "count": 3160
+    },
+    {
+      "timePeriod": "201709180000",
+      "count": 1549
+    },
+    {
+      "timePeriod": "201709170000",
+      "count": 1049
+    },
+    {
+      "timePeriod": "201709160000",
+      "count": 1389
+    },
+    {
+      "timePeriod": "201709150000",
+      "count": 1596
+    },
+    {
+      "timePeriod": "201709140000",
+      "count": 4355
+    },
+    {
+      "timePeriod": "201709130000",
+      "count": 874
+    },
+    {
+      "timePeriod": "201709120000",
+      "count": 1816
+    },
+    {
+      "timePeriod": "201709110000",
+      "count": 666
+    },
+    {
+      "timePeriod": "201709100000",
+      "count": 1756
+    },
+    {
+      "timePeriod": "201709090000",
+      "count": 1110
+    },
+    {
+      "timePeriod": "201709080000",
+      "count": 1419
+    },
+    {
+      "timePeriod": "201709070000",
+      "count": 3529
+    },
+    {
+      "timePeriod": "201709060000",
+      "count": 4096
+    },
+    {
+      "timePeriod": "201709050000",
+      "count": 2639
+    },
+    {
+      "timePeriod": "201709040000",
+      "count": 2562
+    },
+    {
+      "timePeriod": "201709030000",
+      "count": 2672
+    },
+    {
+      "timePeriod": "201709020000",
+      "count": 1709
+    },
+    {
+      "timePeriod": "201709010000",
+      "count": 1327
+    },
+    {
+      "timePeriod": "201708310000",
+      "count": 2094
+    },
+    {
+      "timePeriod": "201708300000",
+      "count": 1333
+    },
+    {
+      "timePeriod": "201708290000",
+      "count": 1348
+    },
+    {
+      "timePeriod": "201708280000",
+      "count": 1701
+    },
+    {
+      "timePeriod": "201708270000",
+      "count": 11990
+    },
+    {
+      "timePeriod": "201708260000",
+      "count": 2972
+    },
+    {
+      "timePeriod": "201708250000",
+      "count": 1208
+    },
+    {
+      "timePeriod": "201708240000",
+      "count": 7999
+    },
+    {
+      "timePeriod": "201708230000",
+      "count": 3433
+    },
+    {
+      "timePeriod": "201708220000",
+      "count": 3824
+    },
+    {
+      "timePeriod": "201708210000",
+      "count": 7092
+    },
+    {
+      "timePeriod": "201708200000",
+      "count": 5418
+    },
+    {
+      "timePeriod": "201708190000",
+      "count": 5749
+    },
+    {
+      "timePeriod": "201708180000",
+      "count": 3420
+    },
+    {
+      "timePeriod": "201708170000",
+      "count": 1259
+    },
+    {
+      "timePeriod": "201708160000",
+      "count": 2936
+    },
+    {
+      "timePeriod": "201708150000",
+      "count": 2356
+    },
+    {
+      "timePeriod": "201708140000",
+      "count": 731
+    },
+    {
+      "timePeriod": "201708130000",
+      "count": 995
+    },
+    {
+      "timePeriod": "201708120000",
+      "count": 1887
+    },
+    {
+      "timePeriod": "201708110000",
+      "count": 1188
+    },
+    {
+      "timePeriod": "201708100000",
+      "count": 2475
+    },
+    {
+      "timePeriod": "201708090000",
+      "count": 2832
+    },
+    {
+      "timePeriod": "201708080000",
+      "count": 2735
+    },
+    {
+      "timePeriod": "201708070000",
+      "count": 4333
+    },
+    {
+      "timePeriod": "201708060000",
+      "count": 8805
+    },
+    {
+      "timePeriod": "201708050000",
+      "count": 7797
+    },
+    {
+      "timePeriod": "201708040000",
+      "count": 1931
+    },
+    {
+      "timePeriod": "201708030000",
+      "count": 1840
+    },
+    {
+      "timePeriod": "201708020000",
+      "count": 4415
+    },
+    {
+      "timePeriod": "201708010000",
+      "count": 4043
+    },
+    {
+      "timePeriod": "201707310000",
+      "count": 3893
+    },
+    {
+      "timePeriod": "201707300000",
+      "count": 3664
+    },
+    {
+      "timePeriod": "201707290000",
+      "count": 3646
+    },
+    {
+      "timePeriod": "201707280000",
+      "count": 955
+    },
+    {
+      "timePeriod": "201707270000",
+      "count": 752
+    },
+    {
+      "timePeriod": "201707260000",
+      "count": 4915
+    },
+    {
+      "timePeriod": "201707250000",
+      "count": 3240
+    },
+    {
+      "timePeriod": "201707240000",
+      "count": 842
+    },
+    {
+      "timePeriod": "201707230000",
+      "count": 2046
+    },
+    {
+      "timePeriod": "201707220000",
+      "count": 6192
+    },
+    {
+      "timePeriod": "201707210000",
+      "count": 4421
+    },
+    {
+      "timePeriod": "201707200000",
+      "count": 9463
+    },
+    {
+      "timePeriod": "201707190000",
+      "count": 3900
+    },
+    {
+      "timePeriod": "201707180000",
+      "count": 3681
+    },
+    {
+      "timePeriod": "201707170000",
+      "count": 1484
+    },
+    {
+      "timePeriod": "201707160000",
+      "count": 3326
+    },
+    {
+      "timePeriod": "201707150000",
+      "count": 4535
+    },
+    {
+      "timePeriod": "201707140000",
+      "count": 2660
+    },
+    {
+      "timePeriod": "201707130000",
+      "count": 4333
+    },
+    {
+      "timePeriod": "201707120000",
+      "count": 925
+    },
+    {
+      "timePeriod": "201707110000",
+      "count": 624
+    },
+    {
+      "timePeriod": "201707100000",
+      "count": 1331
+    },
+    {
+      "timePeriod": "201707090000",
+      "count": 7451
+    },
+    {
+      "timePeriod": "201707080000",
+      "count": 1325
+    },
+    {
+      "timePeriod": "201707070000",
+      "count": 2449
+    },
+    {
+      "timePeriod": "201707060000",
+      "count": 2112
+    },
+    {
+      "timePeriod": "201707050000",
+      "count": 2700
+    },
+    {
+      "timePeriod": "201707040000",
+      "count": 6771
+    },
+    {
+      "timePeriod": "201707030000",
+      "count": 5709
+    },
+    {
+      "timePeriod": "201707020000",
+      "count": 1777
+    },
+    {
+      "timePeriod": "201707010000",
+      "count": 6155
+    },
+    {
+      "timePeriod": "201706300000",
+      "count": 6828
+    },
+    {
+      "timePeriod": "201706290000",
+      "count": 2649
+    },
+    {
+      "timePeriod": "201706280000",
+      "count": 2074
+    },
+    {
+      "timePeriod": "201706270000",
+      "count": 4302
+    },
+    {
+      "timePeriod": "201706260000",
+      "count": 2619
+    },
+    {
+      "timePeriod": "201706250000",
+      "count": 1697
+    },
+    {
+      "timePeriod": "201706240000",
+      "count": 1824
+    },
+    {
+      "timePeriod": "201706230000",
+      "count": 475
+    },
+    {
+      "timePeriod": "201706220000",
+      "count": 1582
+    },
+    {
+      "timePeriod": "201706210000",
+      "count": 2453
+    },
+    {
+      "timePeriod": "201706200000",
+      "count": 2432
+    },
+    {
+      "timePeriod": "201706190000",
+      "count": 1194
+    },
+    {
+      "timePeriod": "201706180000",
+      "count": 8860
+    },
+    {
+      "timePeriod": "201706170000",
+      "count": 3730
+    },
+    {
+      "timePeriod": "201706160000",
+      "count": 3550
+    },
+    {
+      "timePeriod": "201706150000",
+      "count": 2603
+    },
+    {
+      "timePeriod": "201706140000",
+      "count": 8084
+    },
+    {
+      "timePeriod": "201706130000",
+      "count": 9568
+    },
+    {
+      "timePeriod": "201706120000",
+      "count": 6305
+    },
+    {
+      "timePeriod": "201706110000",
+      "count": 1995
+    },
+    {
+      "timePeriod": "201706100000",
+      "count": 1806
+    },
+    {
+      "timePeriod": "201706090000",
+      "count": 1463
+    },
+    {
+      "timePeriod": "201706080000",
+      "count": 2347
+    },
+    {
+      "timePeriod": "201706070000",
+      "count": 2896
+    },
+    {
+      "timePeriod": "201706060000",
+      "count": 1804
+    },
+    {
+      "timePeriod": "201706050000",
+      "count": 350
+    },
+    {
+      "timePeriod": "201706040000",
+      "count": 1669
+    },
+    {
+      "timePeriod": "201706030000",
+      "count": 2349
+    },
+    {
+      "timePeriod": "201706020000",
+      "count": 754
+    },
+    {
+      "timePeriod": "201706010000",
+      "count": 652
+    },
+    {
+      "timePeriod": "201705310000",
+      "count": 2728
+    },
+    {
+      "timePeriod": "201705300000",
+      "count": 3802
+    },
+    {
+      "timePeriod": "201705290000",
+      "count": 3869
+    },
+    {
+      "timePeriod": "201705280000",
+      "count": 2896
+    },
+    {
+      "timePeriod": "201705270000",
+      "count": 1683
+    },
+    {
+      "timePeriod": "201705260000",
+      "count": 1149
+    },
+    {
+      "timePeriod": "201705250000",
+      "count": 4180
+    },
+    {
+      "timePeriod": "201705240000",
+      "count": 3015
+    },
+    {
+      "timePeriod": "201705230000",
+      "count": 1039
+    },
+    {
+      "timePeriod": "201705220000",
+      "count": 707
+    },
+    {
+      "timePeriod": "201705210000",
+      "count": 2855
+    },
+    {
+      "timePeriod": "201705200000",
+      "count": 4487
+    },
+    {
+      "timePeriod": "201705190000",
+      "count": 1956
+    },
+    {
+      "timePeriod": "201705180000",
+      "count": 5095
+    },
+    {
+      "timePeriod": "201705170000",
+      "count": 1992
+    },
+    {
+      "timePeriod": "201705160000",
+      "count": 2119
+    },
+    {
+      "timePeriod": "201705150000",
+      "count": 3089
+    },
+    {
+      "timePeriod": "201705140000",
+      "count": 3252
+    },
+    {
+      "timePeriod": "201705130000",
+      "count": 1441
+    },
+    {
+      "timePeriod": "201705120000",
+      "count": 1288
+    },
+    {
+      "timePeriod": "201705110000",
+      "count": 1494
+    },
+    {
+      "timePeriod": "201705100000",
+      "count": 1735
+    },
+    {
+      "timePeriod": "201705090000",
+      "count": 1750
+    },
+    {
+      "timePeriod": "201705080000",
+      "count": 3084
+    },
+    {
+      "timePeriod": "201705070000",
+      "count": 3458
+    },
+    {
+      "timePeriod": "201705060000",
+      "count": 2450
+    },
+    {
+      "timePeriod": "201705050000",
+      "count": 1789
+    },
+    {
+      "timePeriod": "201705040000",
+      "count": 2923
+    },
+    {
+      "timePeriod": "201705030000",
+      "count": 4952
+    },
+    {
+      "timePeriod": "201705020000",
+      "count": 1381
+    },
+    {
+      "timePeriod": "201705010000",
+      "count": 1338
+    },
+    {
+      "timePeriod": "201704300000",
+      "count": 3521
+    },
+    {
+      "timePeriod": "201704290000",
+      "count": 2438
+    },
+    {
+      "timePeriod": "201704280000",
+      "count": 5200
+    },
+    {
+      "timePeriod": "201704270000",
+      "count": 16133
+    },
+    {
+      "timePeriod": "201704260000",
+      "count": 2538
+    },
+    {
+      "timePeriod": "201704250000",
+      "count": 2174
+    },
+    {
+      "timePeriod": "201704240000",
+      "count": 1549
+    },
+    {
+      "timePeriod": "201704230000",
+      "count": 2780
+    },
+    {
+      "timePeriod": "201704220000",
+      "count": 5654
+    },
+    {
+      "timePeriod": "201704210000",
+      "count": 2518
+    },
+    {
+      "timePeriod": "201704200000",
+      "count": 2815
+    },
+    {
+      "timePeriod": "201704190000",
+      "count": 2207
+    },
+    {
+      "timePeriod": "201704180000",
+      "count": 4746
+    },
+    {
+      "timePeriod": "201704170000",
+      "count": 2816
+    },
+    {
+      "timePeriod": "201704160000",
+      "count": 8231
+    },
+    {
+      "timePeriod": "201704150000",
+      "count": 3651
+    },
+    {
+      "timePeriod": "201704140000",
+      "count": 2392
+    },
+    {
+      "timePeriod": "201704130000",
+      "count": 3077
+    },
+    {
+      "timePeriod": "201704120000",
+      "count": 2335
+    },
+    {
+      "timePeriod": "201704110000",
+      "count": 1749
+    },
+    {
+      "timePeriod": "201704100000",
+      "count": 2260
+    },
+    {
+      "timePeriod": "201704090000",
+      "count": 6469
+    },
+    {
+      "timePeriod": "201704080000",
+      "count": 2618
+    },
+    {
+      "timePeriod": "201704070000",
+      "count": 7426
+    },
+    {
+      "timePeriod": "201704060000",
+      "count": 2903
+    },
+    {
+      "timePeriod": "201704050000",
+      "count": 1620
+    },
+    {
+      "timePeriod": "201704040000",
+      "count": 2180
+    },
+    {
+      "timePeriod": "201704030000",
+      "count": 12999
+    },
+    {
+      "timePeriod": "201704020000",
+      "count": 5013
+    },
+    {
+      "timePeriod": "201704010000",
+      "count": 1990
+    },
+    {
+      "timePeriod": "201703310000",
+      "count": 2544
+    },
+    {
+      "timePeriod": "201703300000",
+      "count": 2617
+    },
+    {
+      "timePeriod": "201703290000",
+      "count": 2389
+    },
+    {
+      "timePeriod": "201703280000",
+      "count": 3284
+    },
+    {
+      "timePeriod": "201703270000",
+      "count": 1154
+    },
+    {
+      "timePeriod": "201703260000",
+      "count": 1871
+    },
+    {
+      "timePeriod": "201703250000",
+      "count": 3225
+    },
+    {
+      "timePeriod": "201703240000",
+      "count": 913
+    },
+    {
+      "timePeriod": "201703230000",
+      "count": 1513
+    },
+    {
+      "timePeriod": "201703220000",
+      "count": 830
+    },
+    {
+      "timePeriod": "201703210000",
+      "count": 1088
+    },
+    {
+      "timePeriod": "201703200000",
+      "count": 767
+    },
+    {
+      "timePeriod": "201703190000",
+      "count": 1475
+    },
+    {
+      "timePeriod": "201703180000",
+      "count": 2635
+    },
+    {
+      "timePeriod": "201703170000",
+      "count": 2690
+    },
+    {
+      "timePeriod": "201703160000",
+      "count": 853
+    },
+    {
+      "timePeriod": "201703150000",
+      "count": 621
+    },
+    {
+      "timePeriod": "201703140000",
+      "count": 928
+    },
+    {
+      "timePeriod": "201703130000",
+      "count": 854
+    },
+    {
+      "timePeriod": "201703120000",
+      "count": 1114
+    },
+    {
+      "timePeriod": "201703110000",
+      "count": 788
+    },
+    {
+      "timePeriod": "201703100000",
+      "count": 826
+    },
+    {
+      "timePeriod": "201703090000",
+      "count": 1338
+    },
+    {
+      "timePeriod": "201703080000",
+      "count": 1485
+    },
+    {
+      "timePeriod": "201703070000",
+      "count": 2157
+    },
+    {
+      "timePeriod": "201703060000",
+      "count": 1382
+    },
+    {
+      "timePeriod": "201703050000",
+      "count": 559
+    },
+    {
+      "timePeriod": "201703040000",
+      "count": 916
+    },
+    {
+      "timePeriod": "201703030000",
+      "count": 902
+    },
+    {
+      "timePeriod": "201703020000",
+      "count": 862
+    },
+    {
+      "timePeriod": "201703010000",
+      "count": 491
+    },
+    {
+      "timePeriod": "201702280000",
+      "count": 565
+    },
+    {
+      "timePeriod": "201702270000",
+      "count": 733
+    },
+    {
+      "timePeriod": "201702260000",
+      "count": 1122
+    },
+    {
+      "timePeriod": "201702250000",
+      "count": 2007
+    },
+    {
+      "timePeriod": "201702240000",
+      "count": 1425
+    },
+    {
+      "timePeriod": "201702230000",
+      "count": 461
+    },
+    {
+      "timePeriod": "201702220000",
+      "count": 562
+    }
+  ],
+  "totalCount": 24614,
+  "next": "eyJhdXRoZW50aWNpdHkiOiJkMGFlM2EzNzc3ODc2ZjdjNWVmYWNmMTM4OTA3NzkwM2VmN2ZmN2VlZGVhODMwMjY1NjNlNWZhNTgyZWU1MTJhIiwiZnJvbURhdGUiOiIyMDE3MDIyMjAwMDAiLCJ0b0RhdGUiOiIyMDE3MTEwMzAwMDAiLCJidWNrZXQiOiJkYXkiLCJuZXh0Ijp7Im1heERhdGUiOiIyMDE3MTAwMzAwMDAwMCIsImV4cGVuc2l2ZVF1ZXJ5IjpmYWxzZX19",
+  "requestParameters": {
+    "bucket": "day",
+    "fromDate": "201702220000",
+    "toDate": "201711030000"
+  }
+}
