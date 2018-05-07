@@ -1,5 +1,5 @@
 setTimeout(myFunction, 1000)
-var twoTeams = [
+var mlbTeams = [
   ["@Angels","ANA"],
   ["@Astros","HOU"],
   ["@Athletics","OAK"],
@@ -18071,39 +18071,14 @@ var allMLBGames = [
     "home_score": 8
   }
 ]
-
-
-
-var rockiesArray = []
-
-for (let game of allMLBGames){
-  // Go through all the games for the team, and add the amount of runs scored by the team to the mentions couting object
-  if(game["home_team"] == "COL"){
-    var teamDateWithMentions = rockiesMentions["results"].find(function(element){
-      return element["timePeriod"] == game["Date"]+"0000"
-    })
-    teamDateWithMentions["runs"] = game["home_score"]
-  }
-  if(game["vis_team"] == "COL"){
-    var teamDateWithMentions = rockiesMentions["results"].find(function(element){
-      return element["timePeriod"] == game["Date"]+"0000"
-    })
-    teamDateWithMentions["runs"] = game["vis_score"]
-  }
-}
-
-rockiesMentions["results"].forEach(function(game){
-  if(game["runs"]){
-    rockiesArray.push([game["runs"], game["count"]])
-  }
-})
+var mlbD3Data = []
 
 // Build the loop for all teams now
-twoTeams.forEach(function(team){
+mlbTeams.forEach(function(team){
 
   $.getJSON("./../teamData/" + team[0] + ".json", function(json) {
     teamMentionsAndRuns[team[0]] = []
-    console.log("➡️➡️➡️", team[0], teamMentionsAndRuns)
+    // console.log("➡️➡️➡️", team[0], teamMentionsAndRuns)
 
     var teamMentions = json
     // console.log("🙌",teamMentions)
@@ -18128,11 +18103,21 @@ twoTeams.forEach(function(team){
       if(game["runs"]){
         teamMentionsAndRuns[team[0]].push([game["runs"], game["count"]])
       }
+
     })
+    mlbD3Data.push({
+        name: team[0],
+        color: 'rgba(223, 83, 83, .5)',
+        data: teamMentionsAndRuns[team[0]]
+    })
+    console.log(mlbD3Data)
+
   });
 })
 
-console.log("😈", teamMentionsAndRuns)
+
+
+// console.log("😈", teamMentionsAndRuns)
 
 function myFunction() {
 
@@ -18195,16 +18180,8 @@ function myFunction() {
               }
           }
       },
-      series: [{
-          name: '@Angels',
-          color: 'rgba(223, 83, 83, .5)',
-          data: teamMentionsAndRuns["@Angels"]
-      },
-      {
-          name: '@Astros',
-          color: 'rgba(223, 83, 83, .5)',
-          data: teamMentionsAndRuns["@Astros"]
-      }]
+      series: mlbD3Data
+
   });
 
 
