@@ -1,7 +1,3 @@
-setTimeout(myFunction, 1000)
-
-
-teamMentionsAndRuns = {}
 var rockiesMentions = {
   "results": [
     {
@@ -18042,171 +18038,89 @@ var allMLBGames = [
   }
 ]
 
-var twoTeams = [
-  ["@Athletics","OAK"],
-  ["@Braves","ATL"],
-  ["@Dodgers","LAD"],
-  ["@Royals","KC"],
-  ["@Tigers","DET"],
-  ["@Dbacks","ARI"],
-  ["@Reds","CIN"],
-  ["@Padres","SD"],
-  ["@Pirates","PIT"],
-  ["@Mets","NYM"],
-  ["@Orioles","BAL"],
-  ["@Angels","ANA"],
-  ["@Twins","MIN"],
-  ["@Nationals","WSH"],
-  ["@RaysBaseball","TB"],
-  ["@RedSox","BOR"],
-  ["@Yankees","NYY"],
-  ["@Rangers","TEX"],
-  ["@Cubs","CHC"],
-  ["@BlueJays","TOR"],
-  ["@Mariners","SEA"],
-  ["@SFGiants","SF"],
-  ["@astros","HOU"],
-  ["@Brewers","MIL"],
-  ["@Cardinals","STL"],
-  ["@Indians","CLE"],
-  ["@Marlins","FLA"],
-  ["@Phillies","PHI"],
-  ["@whitesox","CHW"],
-  ["@Rockies","COL"]
-]
-//
-// var twoTeams = [
-//   ["@Angels", "ANA"],
-//   ["@Astros", "HOU"]
-// ]
-
 var rockiesArray = []
 
 for (let game of allMLBGames){
-  // Go through all the games for the team, and add the amount of runs scored by the team to the mentions couting object
   if(game["home_team"] == "COL"){
     var teamDateWithMentions = rockiesMentions["results"].find(function(element){
       return element["timePeriod"] == game["Date"]+"0000"
     })
     teamDateWithMentions["runs"] = game["home_score"]
   }
-  if(game["vis_team"] == "COL"){
-    var teamDateWithMentions = rockiesMentions["results"].find(function(element){
-      return element["timePeriod"] == game["Date"]+"0000"
-    })
-    teamDateWithMentions["runs"] = game["vis_score"]
-  }
 }
-console.log(rockiesMentions)
+
+// console.log(rockiesMentions)
+
 rockiesMentions["results"].forEach(function(game){
   if(game["runs"]){
     rockiesArray.push([game["runs"], game["count"]])
   }
 })
 
-// Build the loop for all teams now
-twoTeams.forEach(function(team){
-  console.log("SWITCHING TO", team[0])
-  $.getJSON("./../teamData/" + team[0] + ".json", function(json) {
-    teamMentionsAndRuns[team[0]] = []
-    console.log("➡️➡️➡️", team[0], teamMentionsAndRuns)
-
-    var teamMentions = json
-    // console.log("🙌",teamMentions)
-    // Go through all the games for the team[0], and add the amount of runs scored by the team[0] to the mentions couting object
-    for (let game of allMLBGames){
-      if(game["home_team"] == team[1]){
-        var teamDateWithMentions = teamMentions["results"].find(function(element){
-          return element["timePeriod"] == game["Date"]+"0000"
-        })
-        teamDateWithMentions["runs"] = game["home_score"]
-      }
-      if(game["vis_team"] == team[1]){
-        var teamDateWithMentions = teamMentions["results"].find(function(element){
-          return element["timePeriod"] == game["Date"]+"0000"
-        })
-        teamDateWithMentions["runs"] = game["vis_score"]
-      }
-    }
-
-    // Only plot dates that a team[0] had runs
-    teamMentions["results"].forEach(function(game){
-      if(game["runs"]){
-        teamMentionsAndRuns[team[0]].push([game["runs"], game["count"]])
-      }
-    })
-  });
-})
 
 
-
-function myFunction() {
-
-  Highcharts.chart('container', {
-      chart: {
-          type: 'scatter',
-          zoomType: 'xy'
-      },
-      title: {
-          text: 'Twitter Mentions of MLB Teams vs Runs Per Day'
-      },
-      subtitle: {
-          text: 'Source: Twitter & SportsRadar'
-      },
-      xAxis: {
-          title: {
-              enabled: true,
-              text: 'Runs'
-          },
-          startOnTick: true,
-          endOnTick: true,
-          showLastLabel: true
-      },
-      yAxis: {
-          title: {
-              text: 'Twitter @ Mentions'
-          }
-      },
-      legend: {
-          layout: 'vertical',
-          align: 'left',
-          verticalAlign: 'top',
-          x: 100,
-          y: 70,
-          floating: true,
-          backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
-          borderWidth: 1
-      },
-      plotOptions: {
-          scatter: {
-              marker: {
-                  radius: 5,
-                  states: {
-                      hover: {
-                          enabled: true,
-                          lineColor: 'rgb(100,100,100)'
-                      }
-                  }
-              },
-              states: {
-                  hover: {
-                      marker: {
-                          enabled: false
-                      }
-                  }
-              },
-              tooltip: {
-                  headerFormat: '<b>{series.name}</b><br>',
-                  pointFormat: '{point.x} runs, {point.y} Twitter Mentions'
-              }
-          }
-      },
-      series: [{
-          name: 'Rockies',
-          color: 'rgba(223, 83, 83, .5)',
-          data: teamMentionsAndRuns["@Angels"]
-      }]
-  });
-
-
-}
+Highcharts.chart('container', {
+    chart: {
+        type: 'scatter',
+        zoomType: 'xy'
+    },
+    title: {
+        text: 'Twitter Mentions of MLB Teams vs Runs Per Day'
+    },
+    subtitle: {
+        text: 'Source: Twitter & SportsRadar'
+    },
+    xAxis: {
+        title: {
+            enabled: true,
+            text: 'Runs'
+        },
+        startOnTick: true,
+        endOnTick: true,
+        showLastLabel: true
+    },
+    yAxis: {
+        title: {
+            text: 'Twitter @ Mentions'
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'left',
+        verticalAlign: 'top',
+        x: 100,
+        y: 70,
+        floating: true,
+        backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
+        borderWidth: 1
+    },
+    plotOptions: {
+        scatter: {
+            marker: {
+                radius: 5,
+                states: {
+                    hover: {
+                        enabled: true,
+                        lineColor: 'rgb(100,100,100)'
+                    }
+                }
+            },
+            states: {
+                hover: {
+                    marker: {
+                        enabled: false
+                    }
+                }
+            },
+            tooltip: {
+                headerFormat: '<b>{series.name}</b><br>',
+                pointFormat: '{point.x} runs, {point.y} Twitter Mentions'
+            }
+        }
+    },
+    series: [{
+        name: 'Rockies',
+        color: 'rgba(223, 83, 83, .5)',
+        data: rockiesArray
+    }]
+});
