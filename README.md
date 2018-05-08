@@ -38,7 +38,7 @@ Once I have all this data aggregated, I created online charts where users can se
 ## Data Aggregation
 I used a combination of Node.js and Python to get information from Twitter’s API. For the 2017 season I got the counts of all the mentions of every team in the MLB. I then combined this data with the Retrosheet from 2017. For every game occurrence, I created an object with the game’s date, home runs scored, visitor runs scored, and mentions for that day. This way we can visualize a team’s mentions per day.
 
-[TwMPRG for all MLB Teams](https://snag.gy/ChBPmp.jpg)
+![TwMPRG for all MLB Teams](https://snag.gy/ChBPmp.jpg)
 
 ## Evaluation of Statistic and Findings
 here aren’t a lot of social media statistics related to baseball, however it was very interesting to see the lack of correlation. One thing I think may have skewed the data was the lack of samples of high scoring games. Games that exceed about 12 runs scored were rare, and if there were more games scored with higher amounts of runs, it could have affected the study.
