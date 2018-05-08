@@ -1,8 +1,10 @@
 # SMEAR
 ## Working Demo
 https://www.dannguyen.me/SMEAR
+
 Currently having trouble loading assets because I'm using a custom domain on GH Pages through Jekyll. 
 Still figuring out how to get those in, but the project can run locally on any machine
+[Update 5/7: It works finally]
 
 ## Running Locally
 1) Clone this repository: ```git clone git@github.com:danvn/SMEAR.git```
