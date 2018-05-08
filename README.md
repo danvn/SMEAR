@@ -41,7 +41,9 @@ I used a combination of Node.js and Python to get information from Twitter’s A
 ## Evaluation of Statistic and Findings
 here aren’t a lot of social media statistics related to baseball, however it was very interesting to see the lack of correlation. One thing I think may have skewed the data was the lack of samples of high scoring games. Games that exceed about 12 runs scored were rare, and if there were more games scored with higher amounts of runs, it could have affected the study.
 As much as I would like to say that the data had an interesting trend, it really didn’t. Naturally, I had a hunch that teams that scored more runs would generally have more mentions on that date, but that’s not the case. The visualization above shows no trend in data, and almost looks like a negative regression line could be drawn. After doing more research I found that the outliers of high tweets for teams collecting more than 70,000 tweets were games of high magnitude, or games that had heavy impact on the season. All teams that gained more than 50,000 tweets clinched first in their division. 
+
 ![Cubs Record TwMPRG](https://snag.gy/i5zWgn.jpg) 
+
 The Cubs, Indians, Dodgers, and Astros led the year with more than 600k, 200k, 1.69M, 1.9M mentions throughout the season. The Houston Astros, the World Series Champions finished the season with an average 2120 TwMPRG. The San Diego Padres were only mentioned 8013 times over a span of 604 runs, clocking a league low 13.26 TwMPRG.
 
 ## Conclusion
